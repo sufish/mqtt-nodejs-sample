@@ -1,6 +1,6 @@
 var args = require('yargs').argv;
 var mqtt = require('mqtt')
-var client = mqtt.connect('mqtt://iot.eclipse.org', {
+var client = mqtt.connect('mqtt://mqtt.eclipse.org', {
     clientId: "mqtt_sample_subscriber_id_2",
     clean: false
 })
