@@ -1,6 +1,6 @@
 var mqtt = require('mqtt')
 var dateTime = require('node-datetime');
-var client = mqtt.connect('mqtt://mqtt.eclipse.org', {
+var client = mqtt.connect('mqtt://mqtt.eclipseprojects.io', {
     clientId: "mqtt_sample_id_chapter_9",
     clean: false,
     keepalive: 5
